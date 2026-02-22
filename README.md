@@ -1,6 +1,6 @@
 # ArchiCore Studio
 
-_ArchiCore Studio: Modern Architecture Website and Integrated Engineering Tools_
+_ArchiCore Studio: Modern Architecture Website with Integrated Engineering Tools_
 [Source Code](https://github.com/abasiadimas/archicore-studio)
 
 ## Screenshots
@@ -16,55 +16,50 @@ _ArchiCore Studio: Modern Architecture Website and Integrated Engineering Tools_
 - [Built With](#built-with)
 - [Features](#features)
 - [Getting Started](#getting-started)
-- [Project Status](#project-status)
-- [Authors](#authors)
+- [Version History](#version-history)
+- [Author](#author)
 - [Acknowledgements](#acknowledgements)
 
 ## General Information
 
-- **ArchiCore Studio** serves as a digital bridge between **Civil Engineering** and **Software Engineering**, blending technical precision with modern web design.
-- Beyond a portfolio, it functions as a **high-end architectural studio storefront**, featuring a minimalist aesthetic, professional branding, and a seamless user experience (UX).
-- Designed as the central hub for my transition into a **Full-stack AEC Engineering** career, translating complex engineering logic into interactive, visually-integrated web applications.
+- **ArchiCore Studio** is a modern web project that combines **minimalist design** with **interactive tools**.
+- The project focuses on demonstrating how **clean design** can be paired with **structured logic**.
+- It serves as a **front-end portfolio** designed to showcase a professional development workflow.
 
 ## Built With
 
-### Phase 1: Core Design & Static UI (Current)
-
-- **HTML5:** Semantic structure optimized for SEO and accessibility.
-- **CSS3:** Advanced layouts utilizing CSS Flexbox for a modern UI.
-
-### Phase 2: Interactive Logic & AEC Tools (Upcoming)
-
-- **JavaScript:** Dynamic functionality and DOM manipulation for interactive elements.
+- **HTML5:** Semantic structure for accessibility and better SEO.
+- **CSS3:** Responsive layouts built with Flexbox for a modern look.
+- **JavaScript:** Used for building interactive logic and technical tools (currently in development).
 
 ## Features
 
-### Phase 1: Core Design & Static UI (Current)
+### Phase 1: Static UI & Design (Completed)
 
 _Focusing on the visual identity and structural foundation of the website._
 
 #### Web Interaction & UX
 
-- **Architectural Branding:** A cohesive visual identity designed to reflect the precision and elegance of **modern architecture**.
-- **Responsive Layout:** A clean, mobile-friendly structure built with **semantic HTML and Flexbox**.
+- **Architectural Branding:** A professional look and feel inspired by **modern architectural precision**.
+- **Responsive Layout:** A mobile-friendly structure built with **semantic HTML and Flexbox**.
 
-### Phase 2: Interactive Logic & Engineering Tools (Upcoming)
+### Phase 2: JavaScript & Technical Tools (Upcoming)
 
-_Integrating JavaScript functionality to create useful engineering tools (Work in Progress)._
+_Adding JavaScript for interactivity and technical calculation logic._
 
 #### Web Interaction & UX
 
-- **Responsive Navigation:** A fully functional **Hamburger Menu** for optimized mobile user experience.
-- **Navigation Tools:** A **Scroll-to-top button** to improve user navigation experience.
+- **Responsive Navigation:** A functional **Hamburger Menu** for mobile and small tablet users.
+- **Navigation Tools:** A **scroll-to-top** button for better user experience.
 
-#### Engineering Tools
+#### Technical Tools
 
-- **Market Cost Estimator:** An interactive **construction cost calculator** based on real current Greek market data.
-- **Eco-Impact Estimator:** A tool to estimate the reduce of **environmental footprint (_CO2 emissions_)** aftre renovation based on user's material selection.
+- **Market Cost Estimator:** An **interactive calculator** for _construction costs_ based on current Greek market data.
+- **Eco-Impact Estimator:** A logic tool that calculates _CO2 emission savings_ based on different material choices.
 
 ## Getting Started
 
-To explore the website portfolio and use the engineering tools locally, follow these steps:
+To run the project locally:
 
 - **Clone the repository:**
 
@@ -72,7 +67,7 @@ To explore the website portfolio and use the engineering tools locally, follow t
   git clone https://github.com/abasiadimas/archicore-studio.git
   ```
 
-- **Navigate to the project directory:**
+- **Navigate to the project's directory:**
 
   ```bash
   cd archicore-studio
@@ -80,23 +75,22 @@ To explore the website portfolio and use the engineering tools locally, follow t
 
 - **How to view:**
 
-  Simply open `index.html` in any modern web browser.
-
-## Project Status
-
-Project is: _**In Development** (Phase 2: JavaScript Integration & Engineering Tools Implementation)._
+  Simply open `index.html` in any modern web browser to view the portfolio.
 
 ## Version History
 
-- **1.0:** Initial Static Release (HTML/CSS) - Baseline design of the portfolio website's structure.
-- **2.0 (Current):** Version Control Implementation (Git/GitHub via SSH) and Project Architecture Setup.
+- **1.0 (Completed):** Static UI with HTML and CSS.
+- **2.0 (Current):** Currently working on JavaScript interactivity and technical calculation logic.
 
-## Authors
+## Author
 
-- **Anastasios Basiadimas** - _BSc Civil Engineer | ASc Computer Science._
-- **Contact:** [GitHub Profile](https://github.com/abasiadimas) | [LinkedIn](https://www.linkedin.com/in/abasiadimas)
+### Anastasios Basiadimas
+
+- _Front-End Developer | ASc Computer Science._
+- _Background in Civil Engineering (BSc)_
+- **Contact:** [GitHub](https://github.com/abasiadimas) | [LinkedIn](https://www.linkedin.com/in/abasiadimas)
 
 ## Acknowledgements
 
-- **AEC Community:** For providing the cost and material data specific to the Greek construction industry.
-- **Canva AI:** Visual assets and project imagery were generated using _Canva’s Magic Media AI_ to create a unique architectural aesthetic.
+- **Greek Construction Data:** For the material and cost values used in the calculators.
+- **Canva AI:** For the project's visual assets and AI-generated imagery.
