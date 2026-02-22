@@ -1,7 +1,7 @@
 # ArchiCore Studio
 
-> Professional AEC Portfolio & Engineering Interactive Tools
-> [Source Code](https://github.com/abasiadimas/archicore-studio)
+_ArchiCore Studio: Modern Architecture Website and Integrated Engineering Tools_
+[Source Code](https://github.com/abasiadimas/archicore-studio)
 
 ## Screenshots
 
@@ -28,40 +28,43 @@
 
 ## Built With
 
+### Phase 1: Core Design & Static UI (Current)
+
 - **HTML5:** Semantic structure optimized for SEO and accessibility.
-- **CSS3:** Advanced layouts utilizing CSS Grid and Flexbox for a modern UI.
-- **JavaScript (Vanilla):** Dynamic functionality and DOM manipulation for interactive elements.
+- **CSS3:** Advanced layouts utilizing CSS Flexbox for a modern UI.
+
+### Phase 2: Interactive Logic & AEC Tools (Upcoming)
+
+- **JavaScript:** Dynamic functionality and DOM manipulation for interactive elements.
 
 ## Features
 
 ### Phase 1: Core Design & Static UI (Current)
 
-_Focusing on the visual identity and structural foundation of the studio._
+_Focusing on the visual identity and structural foundation of the website._
 
 #### Web Interaction & UX
 
 - **Architectural Branding:** A cohesive visual identity designed to reflect the precision and elegance of **modern architecture**.
 - **Responsive Layout:** A clean, mobile-friendly structure built with **semantic HTML and Flexbox**.
 
-### Phase 2: Interactive Logic & AEC Tools (Upcoming)
+### Phase 2: Interactive Logic & Engineering Tools (Upcoming)
 
-_Integrating JavaScript functionality and complex engineering tools (Work in Progress)._
+_Integrating JavaScript functionality to create useful engineering tools (Work in Progress)._
 
 #### Web Interaction & UX
 
-- **Responsive Navigation:** A fully functional **Hamburger Menu** for optimized mobile user experience
-- **Personalized Theme:** Integrated **Dark Mode** toggle for comfortable browsing.
-- **Navigation Tools:** A **Scroll-to-top button** to improve navigation on long-form content pages.
+- **Responsive Navigation:** A fully functional **Hamburger Menu** for optimized mobile user experience.
+- **Navigation Tools:** A **Scroll-to-top button** to improve user navigation experience.
 
-#### AEC Engineering Tools
+#### Engineering Tools
 
-- **Greek Market Cost Estimator:** An interactive **construction cost calculator** based on current Greek market data for Thessaloniki.
-- **Eco-Impact Estimator:** A tool to estimate the **environmental footprint (_CO2 emissions_)** based on material selection and square meters.
-- **Weather Widget:** Real-time weather data for **Thessaloniki** to assist in on-site construction scheduling and planning.
+- **Market Cost Estimator:** An interactive **construction cost calculator** based on real current Greek market data.
+- **Eco-Impact Estimator:** A tool to estimate the reduce of **environmental footprint (_CO2 emissions_)** aftre renovation based on user's material selection.
 
 ## Getting Started
 
-To explore the portfolio and use the AEC engineering tools locally, follow these steps:
+To explore the website portfolio and use the engineering tools locally, follow these steps:
 
 - **Clone the repository:**
 
@@ -71,20 +74,21 @@ To explore the portfolio and use the AEC engineering tools locally, follow these
 
 - **Navigate to the project directory:**
 
-```bash
-cd archicore-studio
-```
+  ```bash
+  cd archicore-studio
+  ```
 
 - **How to view:**
+
   Simply open `index.html` in any modern web browser.
 
 ## Project Status
 
-Project is: _**In Development** (Phase: JavaScript Integration & AEC Logic Implementation)._
+Project is: _**In Development** (Phase 2: JavaScript Integration & Engineering Tools Implementation)._
 
 ## Version History
 
-- **1.0:** Initial Static Release (HTML/CSS) - Baseline design of the portfolio structure.
+- **1.0:** Initial Static Release (HTML/CSS) - Baseline design of the portfolio website's structure.
 - **2.0 (Current):** Version Control Implementation (Git/GitHub via SSH) and Project Architecture Setup.
 
 ## Authors
