@@ -29,8 +29,8 @@
 
 ## Built With
 
-- **HTML5:** Semantic structure for accessibility and better SEO.
-- **CSS3:** Responsive layouts built with Flexbox for a modern look.
+- **HTML5:** Semantic structure for improved accessibility, readability and performance optimization.
+- **CSS3:** Responsive layouts built with Flexbox for a modern minimal look.
 - **JavaScript:** Used for building interactive logic and technical tools (currently in development).
 
 ## Features
@@ -55,7 +55,7 @@ _Adding JavaScript for interactivity and technical calculation logic._
 
 #### Technical Tools
 
-- **Market Cost Estimator:** An **interactive calculator** for _construction costs_ based on current Greek market data.
+- **Market Cost Estimator:** An **interactive calculator** for _construction costs_ based on real market data.
 - **Eco-Impact Estimator:** A logic tool that calculates _CO2 emission savings_ based on different material choices.
 
 ## Getting Started
@@ -80,7 +80,7 @@ To run the project locally:
 
 ## Version History
 
-- **1.0 (Completed):** Static UI with HTML and CSS.
+- **1.0 (Completed):** Building Static UI with HTML and CSS.
 - **2.0 (Current):** Currently working on JavaScript interactivity and technical calculation logic.
 
 ## Author
