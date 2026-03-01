@@ -35,9 +35,26 @@
           <li><a href="#Projects">Projects</a></li>
           <li><a href="#Studio">Studio</a></li>
           <li><a href="#Expertise">Expertise</a></li>
+          <li class="dropdown">
+            <a
+              href="#Tools"
+              id="Engineering-Tools"
+              aria-haspopup="true"
+              aria-expanded="false"
+              >Tools <i class="fa-solid fa-chevron-down" aria-hidden="true"></i
+            ></a>
+            <ul class="dropdown-menu" aria-labelledby="Engineering-Tools">
+              <li><a href="#CostEstimator">Market Cost Estimator</a></li>
+              <li><a href="#EcoImpact">Eco-Impact Estimator</a></li>
+            </ul>
+          </li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
-        <div class="hamburger-icon" aria-label="Toggle Menu">
+        <div
+          class="hamburger-icon"
+          aria-expanded="false"
+          aria-label="Toggle Menu"
+        >
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
@@ -52,8 +69,12 @@
         </div>
         <a class="btn btn-hero" href="#Projects">Projects</a>
       </section>
-      <section id="Projects" class="projects-container">
-        <h2>Featured Projects</h2>
+      <section
+        id="Projects"
+        class="projects-container"
+        aria-labelledby="projects-title"
+      >
+        <h2 id="projects-title">Featured Projects</h2>
         <div class="project-card-container">
           <div class="project-card">
             <div class="card-header">
@@ -67,7 +88,12 @@
               <p>Carbon-neutral living in the Swiss Alps</p>
             </div>
             <div class="card-footer">
-              <a class="btn btn-card" href="#">View Project</a>
+              <a
+                class="btn btn-card"
+                href="#"
+                aria-label="View Project: The Eco Residence"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -82,7 +108,12 @@
               <p>Minimalist glass architecture on the Aegean coast</p>
             </div>
             <div class="card-footer">
-              <a class="btn btn-card" href="#">View Project</a>
+              <a
+                class="btn btn-card"
+                href="#"
+                aria-label="View Project: Coastal Villa"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -97,7 +128,12 @@
               <p>Redefining the modern workspace</p>
             </div>
             <div class="card-footer">
-              <a class="btn btn-card" href="#">View Project</a>
+              <a
+                class="btn btn-card"
+                href="#"
+                aria-label="View Project: The Glass Pavilion"
+                >View Project</a
+              >
             </div>
           </div>
           <div class="project-card">
@@ -115,13 +151,22 @@
               </p>
             </div>
             <div class="card-footer">
-              <a class="btn btn-card" href="#">View Project</a>
+              <a
+                class="btn btn-card"
+                href="#"
+                aria-label="View Project: The Industrial Loft"
+                >View Project</a
+              >
             </div>
           </div>
         </div>
       </section>
-      <section id="Studio" class="studio-container">
-        <h2>Studio</h2>
+      <section
+        id="Studio"
+        class="studio-container"
+        aria-labelledby="studio-title"
+      >
+        <h2 id="studio-title">Studio</h2>
         <div class="studio-info">
           <div class="studio-img">
             <img
@@ -141,12 +186,16 @@
           </div>
         </div>
       </section>
-      <section id="Expertise" class="expertise-container">
-        <h2>Expertise</h2>
+      <section
+        id="Expertise"
+        class="expertise-container"
+        aria-labelledby="expertise-title"
+      >
+        <h2 id="expertise-title">Expertise</h2>
         <div class="expertise-card-container">
           <div class="expertise-card">
             <div class="expertise-icons">
-              <i class="fa-solid fa-house-chimney"></i>
+              <i class="fa-solid fa-house-chimney" aria-hidden="true"></i>
             </div>
             <div class="expertise-card-info">
               <h3>Residential Design</h3>
@@ -158,7 +207,7 @@
           </div>
           <div class="expertise-card">
             <div class="expertise-icons">
-              <i class="fa-solid fa-building"></i>
+              <i class="fa-solid fa-building" aria-hidden="true"></i>
             </div>
             <div class="expertise-card-info">
               <h3>Commercial Spaces</h3>
@@ -170,7 +219,7 @@
           </div>
           <div class="expertise-card">
             <div class="expertise-icons">
-              <i class="fa-solid fa-compass-drafting"></i>
+              <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
             </div>
             <div class="expertise-card-info">
               <h3>Interior Design</h3>
@@ -182,7 +231,7 @@
           </div>
           <div class="expertise-card">
             <div class="expertise-icons">
-              <i class="fa-solid fa-tree-city"></i>
+              <i class="fa-solid fa-tree-city" aria-hidden="true"></i>
             </div>
             <div class="expertise-card-info">
               <h3>Urban Planning</h3>
@@ -194,7 +243,7 @@
           </div>
           <div class="expertise-card">
             <div class="expertise-icons">
-              <i class="fa-solid fa-seedling"></i>
+              <i class="fa-solid fa-seedling" aria-hidden="true"></i>
             </div>
             <div class="expertise-card-info">
               <h3>Sustainable Strategy</h3>
@@ -206,7 +255,7 @@
           </div>
           <div class="expertise-card">
             <div class="expertise-icons">
-              <i class="fa-solid fa-landmark-dome"></i>
+              <i class="fa-solid fa-landmark-dome" aria-hidden="true"></i>
             </div>
             <div class="expertise-card-info">
               <h3>Building Restoration</h3>
@@ -230,26 +279,26 @@
             <a
               href="https://www.instagram.com/"
               target="_blank"
-              aria-label="Instagram"
-              ><i class="fa-brands fa-instagram"></i
+              aria-label="Instagram (opens in a new tab)"
+              ><i class="fa-brands fa-instagram" aria-hidden="true"></i
             ></a>
             <a
               href="https://www.linkedin.com/"
               target="_blank"
-              aria-label="LinkedIn"
-              ><i class="fa-brands fa-linkedin-in"></i
+              aria-label="LinkedIn (opens in a new tab)"
+              ><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i
             ></a>
             <a
               href="https://www.pinterest.com/"
               target="_blank"
-              aria-label="Pinterest"
-              ><i class="fa-brands fa-pinterest-p"></i
+              aria-label="Pinterest (opens in a new tab)"
+              ><i class="fa-brands fa-pinterest-p" aria-hidden="true"></i
             ></a>
             <a
               href="https://www.facebook.com/"
               target="_blank"
-              aria-label="Facebook"
-              ><i class="fa-brands fa-facebook-f"></i
+              aria-label="Facebook (opens in a new tab)"
+              ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
             ></a>
           </div>
         </div>
@@ -269,7 +318,7 @@
           <address>
             <ul class="contact-info">
               <li>
-                <i class="fa-solid fa-location-dot"></i>
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
                 <span>
                   Leoforos Nikis 35, Suite 4<br />
                   546 22 Thessaloniki, Greece
@@ -277,12 +326,12 @@
               </li>
 
               <li>
-                <i class="fa-solid fa-phone"></i>
+                <i class="fa-solid fa-phone" aria-hidden="true"></i>
                 <a href="tel:+302310123456">+30 2310 12 34 56</a>
               </li>
 
               <li>
-                <i class="fa-solid fa-envelope"></i>
+                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                 <a href="mailto:info@archicorestudioexample.com"
                   >info@archicorestudio.com</a
                 >
@@ -294,8 +343,8 @@
       <section class="copyright-footer">
         <div class="copyright">
           <p>
-            <span><i class="fa-solid fa-at"></i></span>2026 ArchiCore Studio.
-            All rights reserved.
+            <span><i class="fa-solid fa-at" aria-hidden="true"></i></span>2026
+            ArchiCore Studio. All rights reserved.
           </p>
         </div>
         <div class="legal">

@@ -1,6 +1,6 @@
 # ArchiCore Studio
 
-> _ArchiCore Studio: Modern Architecture Website with Integrated Engineering Tools_
+> _ArchiCore Studio | Architecture & Engineering Tools_
 
 > [Source Code](https://github.com/abasiadimas/archicore-studio)
 
