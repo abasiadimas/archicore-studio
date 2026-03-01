@@ -23,40 +23,40 @@
 
 ## General Information
 
-- **ArchiCore Studio** is a modern web project that combines **minimalist design** with **interactive tools**.
-- The project focuses on demonstrating how **clean design** can be paired with **structured logic**.
-- It serves as a **front-end portfolio** designed to showcase a professional development workflow.
+- **ArchiCore Studio** is a minimalist landing website for a **modern architectural office**.
+- The focus is on keeping the **design simple** and the **code well-organized**.
+- A **front-end portfolio** built with a professional and clean project structure.
 
 ## Built With
 
-- **HTML5:** Semantic structure for improved accessibility, readability and performance optimization.
-- **CSS3:** Responsive layouts built with Flexbox for a modern minimal look.
-- **JavaScript:** Used for building interactive logic and technical tools (currently in development).
+- **HTML5:** Semantic structure for a clean and accessible layout.
+- **CSS3:** Custom styling and responsive design using Flexbox.
+- **JavaScript:** Planned for upcoming interactive features and navigation logic.
 
 ## Features
 
 ### Phase 1: Static UI & Design (Completed)
 
-_Focusing on the visual identity and structural foundation of the website._
+_Core layout and visual identity._
 
 #### Web Interaction & UX
 
-- **Architectural Branding:** A professional look and feel inspired by **modern architectural precision**.
-- **Responsive Layout:** A mobile-friendly structure built with **semantic HTML and Flexbox**.
+- **Architectural Branding:** Professional look inspired by **modern studio standards**.
+- **Responsive Layout:** Built to work on **desktops, tablets, and phones**.
 
 ### Phase 2: JavaScript & Technical Tools (Upcoming)
 
-_Adding JavaScript for interactivity and technical calculation logic._
+_Functional updates and interactive parts_
 
 #### Web Interaction & UX
 
-- **Responsive Navigation:** A functional **Hamburger Menu** for mobile and small tablet users.
-- **Navigation Tools:** A **scroll-to-top** button for better user experience.
+- **Mobile Navigation:** Adding a functional **Hamburger Menu** for mobile users.
+- **NUser Experience:** Adding a **scroll-to-top** button for easier navigation.
 
 #### Technical Tools
 
-- **Market Cost Estimator:** An **interactive calculator** for _construction costs_ based on real market data.
-- **Eco-Impact Estimator:** A logic tool that calculates _CO2 emission savings_ based on different material choices.
+- **Cost Estimator:** A **calculator** for _construction costs_ based on real market data.
+- **Eco-Impact Estimator:** A calculator for _CO2 emission savings_ based on material choices.
 
 ## Getting Started
 
@@ -80,8 +80,8 @@ To run the project locally:
 
 ## Version History
 
-- **1.0 (Completed):** Building Static UI with HTML and CSS.
-- **2.0 (Current):** Currently working on JavaScript interactivity and technical calculation logic.
+- **1.0 (Completed):** Core layout, responsive design, and branding (HTML and CSS).
+- **2.0 (Current):** JavaScript implementation for navigation and engineering tools.
 
 ## Author
 
@@ -93,5 +93,5 @@ To run the project locally:
 
 ## Acknowledgements
 
-- **Greek Construction Data:** For the material and cost values used in the calculators.
-- **Canva AI:** For the project's visual assets and AI-generated imagery.
+- **Greek Construction Data:** Source for the material and cost values used in the calculators.
+- **Canva AI:** Used for creating the project's custom images and graphics.

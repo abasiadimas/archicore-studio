@@ -46,7 +46,7 @@
   --text-grey: #555555;
   --text-white: #f5f5f5;
   --footer-border: #333;
-  --fotter-text: #ccc;
+  --foοter-text: #ccc;
   --instagram-icon: #c13584;
   --linkedin-icon: #004182;
   --pinterest-icon: #e60023;
@@ -438,12 +438,12 @@ footer {
   border-top: 0.2rem solid var(--footer-border);
   width: 100%;
   padding: 4rem 0 1rem;
-  color: var(--fotter-text);
+  color: var(--foοter-text);
 }
 
 footer h2,
 a {
-  color: var(--fotter-text);
+  color: var(--foοter-text);
 }
 
 footer a {

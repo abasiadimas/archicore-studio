@@ -1,0 +1,10 @@
+{
+  "rules": {
+    "alpha-value-notation": "number",
+    "selector-type-case": "lower",
+    "color-no-hex": true,
+    "unit-no-unknown": true,
+    "block-no-empty": true,
+    "declaration-block-no-duplicate-properties": true
+  }
+}
