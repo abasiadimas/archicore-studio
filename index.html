@@ -270,12 +270,16 @@
     </main>
     <footer id="Contact">
       <section class="main-footer">
-        <div class="brand">
-          <h2 class="logo">ArchiCore Studio</h2>
+        <section class="brand" aria-labelledby="footer-brand">
+          <h2 id="footer-brand" class="logo">ArchiCore Studio</h2>
           <p class="brand-slogan">
             Intentional Design for the Human Experience
           </p>
-          <div class="social-links">
+          <div
+            class="social-links"
+            role="group"
+            aria-label="Social media links"
+          >
             <a
               href="https://www.instagram.com/"
               target="_blank"
@@ -301,9 +305,9 @@
               ><i class="fa-brands fa-facebook-f" aria-hidden="true"></i
             ></a>
           </div>
-        </div>
-        <div class="quick-links">
-          <h2 class="footer-heading">Explore</h2>
+        </section>
+        <section class="quick-links" aria-labelledby="footer-explore">
+          <h2 id="footer-explore" class="footer-heading">Explore</h2>
           <div class="explore">
             <ul>
               <li><a href="#Projects">Projects</a></li>
@@ -312,9 +316,9 @@
               <li><a href="#Home">Home</a></li>
             </ul>
           </div>
-        </div>
-        <div class="contact">
-          <h2 class="footer-heading">Contact</h2>
+        </section>
+        <section class="contact" aria-labelledby="footer-contact">
+          <h2 id="footer-contact" class="footer-heading">Contact</h2>
           <address>
             <ul class="contact-info">
               <li>
@@ -338,16 +342,16 @@
               </li>
             </ul>
           </address>
-        </div>
+        </section>
       </section>
-      <section class="copyright-footer">
-        <div class="copyright">
+      <section class="copyright-footer" aria-label="Copyright and Legal">
+        <div class="copyright" aria-label="Copyright">
           <p>
             <span><i class="fa-solid fa-at" aria-hidden="true"></i></span>2026
             ArchiCore Studio. All rights reserved.
           </p>
         </div>
-        <div class="legal">
+        <div class="legal" aria-label="Legal">
           <ul>
             <li><a class="footer-hover" href="#Privacy">Privacy Policy</a></li>
             <li><a class="footer-hover" href="#Terms">Terms of Use</a></li>
