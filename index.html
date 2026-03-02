@@ -6,19 +6,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>ArchiCore Studio | AEC Portfolio</title>
+    <title>ArchiCore Studio | Portfolio</title>
     <meta
       name="description"
-      content="Professional AEC portfolio and interactive engineering tools."
+      content="Architecture landing page and engineering calculators built with HTML, CSS, and JS."
     />
     <meta name="author" content="Anastasios Basiadimas" />
 
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="ArchiCore Studio" />
-    <meta property="og:title" content="ArchiCore Studio | AEC Portfolio" />
+    <meta property="og:title" content="ArchiCore Studio | Portfolio" />
     <meta
       property="og:description"
-      content="AEC portfolio & interactive engineering tools."
+      content="Architecture portfolio and interactive construction calculators."
     />
     <meta property="og:locale" content="en_US" />
 
@@ -50,7 +50,7 @@
           </li>
           <li><a href="#Contact">Contact</a></li>
         </ul>
-        <div
+        <button
           class="hamburger-icon"
           aria-expanded="false"
           aria-label="Toggle Menu"
@@ -58,7 +58,7 @@
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
-        </div>
+        </button>
       </nav>
     </header>
     <main>
@@ -308,13 +308,21 @@
         </section>
         <section class="quick-links" aria-labelledby="footer-explore">
           <h2 id="footer-explore" class="footer-heading">Explore</h2>
-          <div class="explore">
-            <ul>
-              <li><a href="#Projects">Projects</a></li>
-              <li><a href="#Studio">Studio</a></li>
-              <li><a href="#Expertise">Expertise</a></li>
-              <li><a href="#Home">Home</a></li>
-            </ul>
+          <div class="explore-link-section">
+            <section class="explore" aria-label="Navigation-links">
+              <ul id="explore-links">
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Studio">Studio</a></li>
+                <li><a href="#Expertise">Expertise</a></li>
+              </ul>
+            </section>
+            <section class="tools" aria-label="Engineering-tools">
+              <ul id="tools-links">
+                <li><a href="#CostEstimator">Market Cost Estimator</a></li>
+                <li><a href="#EcoImpact">Eco-Impact Estimator</a></li>
+              </ul>
+            </section>
           </div>
         </section>
         <section class="contact" aria-labelledby="footer-contact">

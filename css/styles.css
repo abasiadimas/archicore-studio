@@ -53,6 +53,7 @@
   --linkedin-icon: #004182;
   --pinterest-icon: #e60023;
   --facebook-icon: #1877f2;
+  --tab-focus: rgba(229, 173, 70, 0.1);
 
   /* Fonts */
   --font-heading: "Google Sans";
@@ -98,6 +99,21 @@ h3 {
   text-decoration: none;
   cursor: pointer;
   transition: all 0.7s ease-in-out;
+}
+
+a:focus-visible,
+.hamburger-icon:focus-visible {
+  background-color: var(--tab-focus);
+}
+
+a:focus-visible {
+  outline: none;
+  border-bottom: 3px solid var(--accent-color);
+}
+
+.hamburger-icon:focus-visible {
+  box-shadow: 0 0 0 4px var(--tab-focus);
+  border-radius: 4px;
 }
 
 /* Header */
@@ -196,12 +212,16 @@ nav a {
 }
 
 .hamburger-icon {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
   display: none;
   flex-direction: column;
   justify-content: space-between;
   width: 1.8rem;
   height: 1.3rem;
-  cursor: pointer;
   z-index: 10;
 }
 
@@ -217,7 +237,7 @@ nav a {
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 100dvh;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -292,6 +312,7 @@ nav a {
   justify-content: space-between;
   flex: 1 1 15rem;
   max-width: 20rem;
+  min-width: 20rem;
   min-height: 23rem;
   border-radius: 2rem;
   overflow: hidden;
@@ -420,7 +441,6 @@ nav a {
   text-align: center;
   width: 100%;
   padding: 4rem 0;
-  /* min-height: 40rem; */
   background-color: var(--heading-dark);
 }
 
@@ -430,7 +450,7 @@ nav a {
 }
 
 .expertise-card-container {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -443,6 +463,7 @@ nav a {
   flex: 1 1 15rem;
   max-width: 20rem;
   min-height: 16rem;
+  max-height: 18rem;
   padding: 6.5rem 1rem 2rem;
   border-radius: 2rem;
   background-color: var(--bg-light);
@@ -553,8 +574,42 @@ footer li {
   min-height: 8rem;
 }
 
-.explore a:hover {
+.quick-links a:hover {
   color: var(--accent-color);
+}
+
+.explore-link-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.explore,
+.tools {
+  flex: 1;
+  text-align: left;
+}
+
+.explore {
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-left: 2px solid var(--footer-text);
+  padding-left: 2rem;
+}
+
+.explore ul,
+.tools ul {
+  width: fit-content;
 }
 
 .contact-info .fa-solid {
@@ -599,7 +654,21 @@ footer li {
 
 /* Responsive Design  */
 
-@media (max-width: 1150px) {
+@media (max-width: 1400px) {
+  .project-card {
+    min-width: 20rem;
+  }
+
+  .expertise-card-container {
+    gap: 3rem;
+  }
+
+  .expertise-card {
+    min-width: 18rem;
+  }
+}
+
+@media (max-width: 1200px) {
   .menu {
     display: none;
   }
@@ -607,9 +676,7 @@ footer li {
   .hamburger-icon {
     display: flex;
   }
-}
 
-@media (max-width: 1100px) {
   .studio-moto h3 {
     font-size: 1.3rem;
   }
@@ -622,6 +689,31 @@ footer li {
   .expertise-card-container {
     width: 70%;
     gap: 3rem;
+  }
+
+  .main-footer {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .quick-links,
+  .contact {
+    margin-top: 2rem;
+  }
+
+  .copyright-footer {
+    width: 95%;
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .legal {
+    width: 100%;
+    justify-content: center;
   }
 }
 
@@ -668,29 +760,12 @@ footer li {
     gap: 2rem;
   }
 
-  .main-footer {
-    width: 95%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
+  .project-card {
+    flex: 1 100%;
   }
 
-  .quick-links,
-  .contact {
-    margin-top: 2rem;
-  }
-
-  .copyright-footer {
-    width: 95%;
-    margin-top: 2rem;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .legal {
-    width: 100%;
-    justify-content: center;
+  .expertise-card {
+    flex: 1 100%;
   }
 }
 
@@ -712,7 +787,8 @@ footer li {
   }
 
   .project-card {
-    flex: 1 1 100%;
+    min-width: 15rem;
+    max-width: 18rem;
   }
 
   .studio-moto h3 {
@@ -727,18 +803,11 @@ footer li {
     width: 95%;
   }
 
-  footer a,
-  li,
-  p,
-  li span,
-  .fa-location-dot,
-  .fa-phone,
-  .fa-envelope {
-    font-size: 1.1rem;
+  .expertise-card {
+    min-width: 15rem;
+    max-width: 18rem;
   }
-}
 
-@media only screen and (max-width: 500px) {
   footer a,
   li,
   p,
@@ -750,7 +819,7 @@ footer li {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   footer a,
   li,
   p,
@@ -759,5 +828,29 @@ footer li {
   .fa-phone,
   .fa-envelope {
     font-size: 0.95rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  footer a,
+  li,
+  p,
+  li span,
+  .fa-location-dot,
+  .fa-phone,
+  .fa-envelope {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .project-card {
+    min-width: 10rem;
+    max-width: 17rem;
+  }
+
+  .expertise-card {
+    min-width: 10rem;
+    max-width: 17rem;
   }
 }
