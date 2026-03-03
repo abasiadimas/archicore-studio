@@ -16,49 +16,38 @@
 - [General Information](#general-information)
 - [Built With](#built-with)
 - [Features](#features)
-- [Getting Started](#getting-started)
+- [Setup](#setup)
 - [Version History](#version-history)
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
 
 ## General Information
 
-- **ArchiCore Studio** is a minimalist landing website for a **modern architectural office**.
-- The focus is on keeping the **design simple** and the **code well-organized**.
-- A **front-end portfolio** built with a professional and clean project structure.
+**ArchiCore Studio** is a personal front-end portfolio project. I used my background in _Civil Engineering_ to build a minimalist landing website for a **modern architectural office**. My goal was to create a professional-looking website that also includes some custom-built engineering tools.
 
 ## Built With
 
-- **HTML5:** Semantic structure for a clean and accessible layout.
-- **CSS3:** Custom styling and responsive design using Flexbox.
-- **JavaScript:** Planned for upcoming interactive features and navigation logic.
+- **HTML5:** Used proper HTML tags to keep the site organized and accessible.
+- **CSS3:** Used mainly Flexbox to make the layout work across all screen sizes.
+- **JavaScript:** Will be used for the calculators and the mobile menu logic.
+- **Font Awesome:** Icons for the UI and social links.
+- **Google Fonts:** Typography (Roboto & Google Sans).
 
 ## Features
 
-### Phase 1: Static UI & Design (Completed)
+### Phase 1: UI & Layout (Completed)
 
-_Core layout and visual identity._
+- **Architectural Look:** Inspired by both my engineering background and real-world architecture websites for a clean, professional feel.
+- **Responsive:** Focused on layout to make it work correctly on phones, tablets, and desktops.
 
-#### Web Interaction & UX
+### Phase 2: Logic & Functionality (Upcoming)
 
-- **Architectural Branding:** Professional look inspired by **modern studio standards**.
-- **Responsive Layout:** Built to work on **desktops, tablets, and phones**.
+- **Mobile Menu:** Building a functional hamburger menu for a better experience on smaller screens.
+- **Scroll-to-Top:** A simple button at the bottom to send the user back to the header.
+- **Cost Estimator:** A calculator for _construction costs_ using real market data.
+- **Eco-Impact Estimator:** A calculator for _CO2 emission savings_ based on different building materials.
 
-### Phase 2: JavaScript & Technical Tools (Upcoming)
-
-_Functional updates and interactive parts_
-
-#### Web Interaction & UX
-
-- **Mobile Navigation:** Adding a functional **Hamburger Menu** for mobile users.
-- **NUser Experience:** Adding a **scroll-to-top** button for easier navigation.
-
-#### Technical Tools
-
-- **Cost Estimator:** A **calculator** for _construction costs_ based on real market data.
-- **Eco-Impact Estimator:** A calculator for _CO2 emission savings_ based on material choices.
-
-## Getting Started
+## Setup
 
 To run the project locally:
 
@@ -68,15 +57,15 @@ To run the project locally:
   git clone https://github.com/abasiadimas/archicore-studio.git
   ```
 
-- **Navigate to the project's directory:**
+- **Go to folder:**
 
   ```bash
   cd archicore-studio
   ```
 
-- **How to view:**
+- **Open the site:**
 
-  Simply open `index.html` in any modern web browser to view the portfolio.
+  Just open `index.html` in your browser.
 
 ## Version History
 
@@ -88,10 +77,10 @@ To run the project locally:
 ### Anastasios Basiadimas
 
 - _Front-End Developer | ASc Computer Science._
-- _Background in Civil Engineering (BSc)_
+- _BSc in Civil Engineering_
 - **Contact:** [GitHub](https://github.com/abasiadimas) | [LinkedIn](https://www.linkedin.com/in/abasiadimas)
 
 ## Acknowledgements
 
-- **Greek Construction Data:** Source for the material and cost values used in the calculators.
-- **Canva AI:** Used for creating the project's custom images and graphics.
+- **Greek Construction Data:** Source for the material and cost values.
+- **Canva AI:** Used for the project's custom images and graphics.
