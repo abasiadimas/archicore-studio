@@ -1,4 +1,4 @@
-/* Fonts */
+/* --Fonts-- */
 
 /* Roboto-regular */
 @font-face {
@@ -36,10 +36,11 @@
   src: url("../fonts/Google_Sans/GoogleSans-Bold.woff2") format("woff2");
 }
 
-/* Root */
+/* --Root-- */
 
 :root {
   /* Colors */
+
   --bg-light: #f5f5f5;
   --nav-bg-lightgrey: rgba(0, 0, 0, 0.5);
   --nav-dropdown-bg-lightgrey: rgba(0, 0, 0, 0.7);
@@ -56,11 +57,12 @@
   --tab-focus: rgba(229, 173, 70, 0.1);
 
   /* Fonts */
+
   --font-heading: "Google Sans";
   --font-body: "Roboto";
 }
 
-/* Universal */
+/* --Universal-- */
 
 * {
   margin: 0;
@@ -101,6 +103,8 @@ h3 {
   transition: all 0.7s ease-in-out;
 }
 
+/* Focus */
+
 a:focus-visible,
 .hamburger-icon:focus-visible {
   background-color: var(--tab-focus);
@@ -116,7 +120,9 @@ a:focus-visible {
   border-radius: 4px;
 }
 
-/* Header */
+/* --Header-- */
+
+/* Navigation */
 
 nav {
   width: 100%;
@@ -166,6 +172,8 @@ nav a {
   border-bottom: 3px solid var(--accent-color);
 }
 
+/* Dropdown */
+
 .dropdown {
   position: relative;
 }
@@ -211,6 +219,8 @@ nav a {
   white-space: nowrap;
 }
 
+/* Hamburger */
+
 .hamburger-icon {
   background: none;
   border: none;
@@ -233,7 +243,9 @@ nav a {
   transition: 0.3s;
 }
 
-/* Hero */
+/* --Hero-- */
+
+/* Main */
 
 .hero {
   position: relative;
@@ -266,6 +278,8 @@ nav a {
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 }
 
+/* Btn hero */
+
 .btn-hero {
   position: absolute;
   bottom: 2.5rem;
@@ -283,7 +297,9 @@ nav a {
   color: var(--heading-dark);
 }
 
-/* Projects */
+/* --Projects-- */
+
+/* Container */
 
 .projects-container {
   text-align: center;
@@ -305,6 +321,8 @@ nav a {
   justify-content: center;
   gap: 2rem;
 }
+
+/* Card */
 
 .project-card {
   display: flex;
@@ -369,7 +387,9 @@ nav a {
   box-shadow: 0 4px 8px rgba(229, 173, 70, 0.3);
 }
 
-/* Studio */
+/* --Studio-- */
+
+/* Container */
 
 .studio-container {
   text-align: center;
@@ -390,6 +410,8 @@ nav a {
   gap: 4rem;
 }
 
+/* Image */
+
 .studio-img {
   flex: 1;
   position: relative;
@@ -407,6 +429,8 @@ nav a {
 .studio-img img:hover {
   filter: brightness(1.05);
 }
+
+/* Moto */
 
 .studio-moto {
   display: flex;
@@ -435,7 +459,9 @@ nav a {
   line-height: 1.8;
 }
 
-/* Expertise */
+/* --Expertise-- */
+
+/* Container */
 
 .expertise-container {
   text-align: center;
@@ -457,6 +483,8 @@ nav a {
   justify-content: center;
   gap: 4rem;
 }
+
+/* Card */
 
 .expertise-card {
   position: relative;
@@ -499,7 +527,7 @@ nav a {
   color: var(--accent-color);
 }
 
-/* Footer */
+/* --Footer-- */
 
 footer {
   background-color: var(--heading-dark);
@@ -524,7 +552,8 @@ footer li {
   margin-bottom: 0.5rem;
 }
 
-/* main */
+/* Main */
+
 .main-footer {
   width: 85%;
   margin: 0 auto;
@@ -616,7 +645,7 @@ footer li {
   margin-right: 0.3rem;
 }
 
-/* copyright */
+/* Copyright */
 
 .copyright-footer {
   width: 85%;
@@ -652,7 +681,7 @@ footer li {
   color: var(--accent-color);
 }
 
-/* Responsive Design  */
+/* --Responsive Design--  */
 
 @media (max-width: 1400px) {
   .project-card {
