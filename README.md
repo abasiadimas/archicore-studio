@@ -1,6 +1,6 @@
 # ArchiCore Studio
 
-> _ArchiCore Studio | Architecture & Engineering Tools_
+> _ArchiCore Studio | Portfolio_
 
 > [Source Code](https://github.com/abasiadimas/archicore-studio)
 
