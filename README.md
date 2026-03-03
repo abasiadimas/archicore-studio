@@ -23,7 +23,7 @@
 
 ## General Information
 
-**ArchiCore Studio** is a personal front-end portfolio project. I used my background in _Civil Engineering_ to build a minimalist landing website for a **modern architectural office**. My goal was to create a professional-looking website that also includes some custom-built engineering tools.
+**ArchiCore Studio** is a personal front-end portfolio project. I used my background in _Civil Engineering_ to build a minimalist landing website for a **modern architectural office**. My goal was to create a professional-looking website that also includes custom-built engineering tools.
 
 ## Built With
 
@@ -38,14 +38,14 @@
 ### Phase 1: UI & Layout (Completed)
 
 - **Architectural Look:** Inspired by both my engineering background and real-world architecture websites for a clean, professional feel.
-- **Responsive:** Focused on layout to make it work correctly on phones, tablets, and desktops.
+- **Responsive:** Focused on layout to make it work on phones, tablets, and desktops.
 
 ### Phase 2: Logic & Functionality (Upcoming)
 
 - **Mobile Menu:** Building a functional hamburger menu for a better experience on smaller screens.
 - **Scroll-to-Top:** A simple button at the bottom to send the user back to the header.
 - **Cost Estimator:** A calculator for _construction costs_ using real market data.
-- **Eco-Impact Estimator:** A calculator for _CO2 emission savings_ based on different building materials.
+- **Eco-Impact Estimator:** A calculator for _CO2 emission savings_ based on construction material selection.
 
 ## Setup
 
@@ -69,8 +69,8 @@ To run the project locally:
 
 ## Version History
 
-- **1.0 (Completed):** Core layout, responsive design, and branding (HTML and CSS).
-- **2.0 (Current):** JavaScript implementation for navigation and engineering tools.
+- **v1.0 (Completed):** Initial static website with a responsive layout (HTML & CSS).
+- **v2.0 (In Progress):** Adding JavaScript logic for the mobile menu and the engineering tools.
 
 ## Author
 
